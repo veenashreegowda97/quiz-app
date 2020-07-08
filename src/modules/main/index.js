@@ -11,7 +11,7 @@ function Main(props) {
   const dispatch = useDispatch();
   useEffect(() => {
     getQuiz(questionBook);
-  }, []);
+  });
   const getQuiz = (payload) => {
     dispatch({ type: "QUIZ", payload: payload });
   };

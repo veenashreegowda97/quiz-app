@@ -13,7 +13,7 @@ function BarGraph(props) {
   }
   const quiz = useSelector((state) => state.quiz);
   let count = 0;
-  quiz.map((item) => {
+  quiz.forEach((item) => {
     if (item.ans === item.selected) {
       count++;
     }
