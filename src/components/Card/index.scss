@@ -1,0 +1,19 @@
+.card-wrapper {
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+
+    .questions-section {
+        padding: 1rem;
+        background-color: #4a4a4a;
+        color: #ffffff;
+        font-size: 1rem;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .answer-section {
+        padding: 2rem;
+    }
+
+}
